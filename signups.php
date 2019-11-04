@@ -1,0 +1,47 @@
+<?php
+include('include/database.php')
+?>
+
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="css/signups.css">
+</head>
+<body>
+	<div class="main">
+	<div class="logo">
+	<img src="lo.png">
+	</div>
+	<ul>
+<li><a href="bb.html">Home</a></li>
+<li><a href="pallex.html">Menu</a></li>
+<li><a href="gal1.html">Gallery</a></li>
+
+<li><a href="#">Account</a>
+<ul>
+<li><a href="login.html">login</a></li>
+<li><a href="#">signup</a></li>
+</ul>
+</li>
+
+<li class="active"><a href="about.html">About</a></li>
+	</ul>
+</div>
+
+	<div class="container">
+		<h1>Register Here</h1>
+		<form action="signup1.php" method="POST"> 
+			<input type="text" placeholder="First Name" required>
+			<input type="text" placeholder="Last Name">
+			<input type="email" placeholder="Enter E-mail" required>
+			<input type="password" placeholder="Select Password" id="p1" required>
+			<input type="password" placeholder="Confirm Password" id="p2" required>
+			<input type="location" placeholder="Location">
+			<input type="submit" value="Signup">
+
+		</form>
+
+	</div>
+
+</body>
+</html>
